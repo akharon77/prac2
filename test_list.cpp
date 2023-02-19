@@ -14,8 +14,7 @@ double testListAll()
            t2 = testList2(&lst),
            t3 = testList3(&lst);
 
-    printf("%lg\n%lg\n%lg\n", t1, t2, t3);
-    // printf("List:\nTest\tTime\n1\t%lg\n2\t%lg\n3\t%lg\n", t1, t2, t3);
+    printf("List:\nTest\tTime\n1\t%lg\n2\t%lg\n3\t%lg\n", t1, t2, t3);
 }
 
 double testList1(List *lst)

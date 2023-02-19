@@ -3,11 +3,9 @@
 
 int main()
 {
-    for (int i = 0; i < 10; ++i)
-    {
-        testListAll();
-        printf("\n");
-    }
+    testListAll();
+    printf("\n");
+    testStackAll();
     return 0;
 }
 
